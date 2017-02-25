@@ -1,0 +1,74 @@
+
+/* helpful links
+colors: http://www.color-hex.com/
+font-family: https://www.w3schools.com/cssref/css_websafe_fonts.asp
+css cheatsheet: http://www.pxleyes.com/blog/wp-content/uploads/2010/03/css-cheatsheet.pdf */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.cover-photo {
+	background-image: url("../images/cover-photo.png");
+	width: 100%;
+	height: 400px;
+}
+
+.my-info {
+	padding: 100px;
+	background-color: #ABC8CF;
+}
+.photo {
+	background-image: url("../images/profile.png");
+	background-size: cover;
+	background-position: center center;
+	float: right;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.photo-wrapper,
+.intro-wrapper {
+	display: inline-block;
+	vertical-align: top;s
+}
+
+.photo-wrapper {
+	width: 30%;
+}
+
+.intro-wrapper {
+	width: 40%;
+	margin-left: 60px;
+}
+
+.social-media {
+	margin: 30px;
+}
+
+.social-media ul {
+	margin: 30px;
+	padding: 0px;
+}
+
+.social-media li {
+	display: inline-block;
+	padding-right: 3px;
+	list-style-type: none;
+
+}
+
+.social-media li img {
+	width: 30px;
+
+}
+
+.box {
+	display: inline-block;
+	margin: 20px;
+	
+}
